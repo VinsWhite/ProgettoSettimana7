@@ -1,0 +1,21 @@
+// !! Per evitare di perdere troppo tempo, non andrò a customizzare bootstrap, userò sass per comodità
+@import '../sass/variables';
+
+/*HEADER*/
+header {
+    /* logo di curdazon */
+    img {
+        width: $logoWidth;
+        height: $logoHeight;
+    }
+    
+    img, h1, h2 {
+        @extend .cursore;
+    }
+
+}
+
+.cursore {
+    cursor: pointer;
+    user-select: none;
+}

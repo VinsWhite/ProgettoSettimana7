@@ -1,0 +1,13 @@
+/* Variabili */
+/*HEADER*/
+header {
+  /* logo di curdazon */
+}
+header img {
+  width: 3em;
+  height: 3em;
+}
+.cursore, header img, header h1, header h2 {
+  cursor: pointer;
+  user-select: none;
+}/*# sourceMappingURL=style.css.map */
