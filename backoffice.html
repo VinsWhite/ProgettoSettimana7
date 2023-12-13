@@ -80,14 +80,14 @@
                                 <input type="text" class="form-control" id="exampleInputText9" aria-describedby="datamodificaProdotto" readonly>
                             </div>
                         </div>
-                        <div class="col">
+                        <!-- <div class="col">
                             <div class="my-3">
                                 <label for="exampleInputText10" class="form-label">Versione</label>
                                 <input type="text" class="form-control" id="exampleInputText10" aria-describedby="versioneProdotto" readonly>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
                         <div class="col">
                             <div class="my-3 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -100,13 +100,30 @@
                         <div class="col mt-2 mt-xl-0">
                             <button type="button" class="btn btn-danger">Reset</button>
                         </div>
+                        <div class="col mt-2 mt-xl-0">
+                            <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info text-light">Visualizza prodotti</button>
+                        </div>
                     </div>
                 </div>
             </form>
-            <div class="modifica"></div>
-            <div class="elimina"></div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Visualizza prodotti</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="productModalBody">
+                      <!-- Contenuto dei prodotti verrà aggiunto qui -->
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-            <div class="modale"></div>
+            
         </main>
         
 
